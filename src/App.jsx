@@ -32,9 +32,9 @@ useEffect(() => {
    <div>
     
     <div className='containerImg'>
-      <img className='containerImg__imgfondo' src="../public/fondoRyM.jpg" alt="" srcset="" />
-    </div>
-
+      {/* <img className='containerImg__imgfondo' src="/Imagenes/FondoRyM.jpg" alt="" srcset="" /> */}
+    {/* </div> */}
+     </div>
     <div className='containerForm'>
     <form className='containerForm__search' onSubmit={handleid}>
         <input className='containerForm__search-input'  ref={inputId}  type="text" placeholder='buscar por numero de ubicaion'/>
